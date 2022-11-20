@@ -7,6 +7,14 @@
     width: 50%;
 }
 
+.gjblock body {
+    border: black;
+    width: 100px;
+    color: blueviolet;
+
+}
+
+
 @media (min-width: 900px) {
     .gjblock > div {
         display: flex;
