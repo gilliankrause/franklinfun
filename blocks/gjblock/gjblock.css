@@ -1,0 +1,25 @@
+.gjblock > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.gjblock img {
+    width: 50%;
+}
+
+@media (min-width: 900px) {
+    .gjblock > div {
+        display: flex;
+        align-items: center;
+        flex-direction: unset;
+    }
+
+    .gjblock > div > div {
+        flex: 1;
+        margin-left: 32px;
+    }
+
+    .gjblock > div > div:first-of-type {
+        margin-left: unset;
+    }
+}
